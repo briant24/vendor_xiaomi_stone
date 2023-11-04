@@ -12,6 +12,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/system/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so \
     vendor/xiaomi/stone/proprietary/system/lib/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_cap.so \
     vendor/xiaomi/stone/proprietary/system/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_capenc.so \
+    vendor/xiaomi/stone/proprietary/system/lib/vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk.so \
+    vendor/xiaomi/stone/proprietary/system/lib/vendor.mediatek.hardware.mtkradioex.se-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mtkradioex.se-V1-ndk.so \
+    vendor/xiaomi/stone/proprietary/system/lib/vendor.mediatek.hardware.mtkradioex.sim-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mtkradioex.sim-V1-ndk.so \
     vendor/xiaomi/stone/proprietary/system/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcomutils.so \
     vendor/xiaomi/stone/proprietary/system/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma.so \
     vendor/xiaomi/stone/proprietary/system/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_adapt.so \
@@ -26,8 +29,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/system/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
     vendor/xiaomi/stone/proprietary/system/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
     vendor/xiaomi/stone/proprietary/system/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvt_avsync.so \
+    vendor/xiaomi/stone/proprietary/system/lib64/vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk.so \
+    vendor/xiaomi/stone/proprietary/system/lib64/vendor.mediatek.hardware.mtkradioex.se-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.mtkradioex.se-V1-ndk.so \
+    vendor/xiaomi/stone/proprietary/system/lib64/vendor.mediatek.hardware.mtkradioex.sim-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.mtkradioex.sim-V1-ndk.so \
     vendor/xiaomi/stone/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/xiaomi/stone/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkradioex@3.0.so \
     vendor/xiaomi/stone/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/xiaomi/stone/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so \
     vendor/xiaomi/stone/proprietary/system/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimscamera_jni.so \
     vendor/xiaomi/stone/proprietary/system/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsmedia_jni.so
 

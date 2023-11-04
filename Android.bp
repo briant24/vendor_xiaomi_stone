@@ -8,7 +8,7 @@ soong_namespace {
 android_app_import {
 	name: "ImsService",
 	owner: "xiaomi",
-	apk: "proprietary/system/priv-app/ImsService/ims.apk",
+	apk: "proprietary/system/priv-app/ImsService/ImsService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
