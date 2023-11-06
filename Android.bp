@@ -16,13 +16,13 @@ android_app_import {
 	privileged: true,
 }
 
-odex_import {
+dex_import {
 	name: "ImsServiceEntitlement.odex",
 	owner: "xiaomi",
 	odex: ["proprietary/product/priv-app/ImsServiceEntitlement/oat/arm64/ImsServiceEntitlement.odex"],
 }
 
-vdex_import {
+dex_import {
 	name: "ImsServiceEntitlement.vdex",
 	owner: "xiaomi",
 	vdex: ["proprietary/product/priv-app/ImsServiceEntitlement/oat/arm64/ImsServiceEntitlement.vdex"],
