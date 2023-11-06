@@ -40,8 +40,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/system/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsmedia_jni.so \
     vendor/xiaomi/stone/proprietary/system/lib64/libsoft_attestation_cert.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsoft_attestation_cert.so \
     vendor/xiaomi/stone/proprietary/system/lib64/libkeystore-attestation-application-id.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libkeystore-attestation-application-id.so \
-    vendor/xiaomi/stone/proprietary/product/priv-app/oat/arm64/ImsServiceEntitlement.odex:$(TARGET_COPY_OUT_PRODUCT)/priv-app/oat/arm64/ImsServiceEntitlement.odex \
-    vendor/xiaomi/stone/proprietary/product/priv-app/oat/arm64/ImsServiceEntitlement.vdex:$(TARGET_COPY_OUT_PRODUCT)/priv-app/oat/arm64/ImsServiceEntitlement.vdex 
+    vendor/xiaomi/stone/proprietary/product/priv-app/ImsServiceEntitlement/oat/arm64/ImsServiceEntitlement.odex:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ImsServiceEntitlement/oat/arm64/ImsServiceEntitlement.odex \
+    vendor/xiaomi/stone/proprietary/product/priv-app/ImsServiceEntitlement/oat/arm64/ImsServiceEntitlement.vdex:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ImsServiceEntitlement/oat/arm64/ImsServiceEntitlement.vdex 
 
 PRODUCT_PACKAGES += \
     ImsService \
